@@ -1,5 +1,5 @@
 from hashlib import sha1
-import os, sys, getpass, time
+import os, sys, getpass
 
 from exploited import isPwned, get_line_length
 
@@ -9,6 +9,8 @@ def read_cfg():
     full_path = os.path.join(dirname, cfg_filename)
     with open(full_path) as f:
         return f.readline().strip().replace('\r','').replace('\n','')
+
+
 
 if __name__ == '__main__':
 
