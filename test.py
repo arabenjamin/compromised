@@ -18,7 +18,7 @@ class Test_findHash(unittest.TestCase):
     def setUp(self):
 
         self.secret = 'password@1234'
-        self.TARGET_HASH = sha1(self.secret).hexdigest().upper()
+        self.TARGET_HASH = sha1(self.secret+'salt').hexdigest().upper()
         self.file_path = "test_passwords_sha1.txt"
         
         """ get the target file size"""
