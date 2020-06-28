@@ -32,7 +32,7 @@ class Test_findHash(unittest.TestCase):
         pass
 
     def test_readCfg(self):
-        self.assertEqual(os.path.exists('config.cfg'), True)
+        self.assertNotEqual(os.environ['APP_CONFIG'], True)
         self.assertNotEquals(read_cfg(), '')
 
 
