@@ -1,6 +1,6 @@
 # Compromised
 
-![Compromised](https://github.com/arabenjamin/compromised/workflows/Compromised/badge.svg?branch=master)
+
 
 ```
 Security is mostly a superstition. It does not exist in nature, 
@@ -10,6 +10,7 @@ Life is either a daring adventure, or nothing.
     -Helen Keller
 ```
 
+![Compromised](https://github.com/arabenjamin/compromised/workflows/Compromised/badge.svg?branch=master)
 
 ## Introduction
 This repo aims to aid in being able to check existing passwords against a known list of exploited/pwned passwords. 
