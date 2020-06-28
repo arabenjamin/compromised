@@ -17,7 +17,7 @@ class Test_findHash(unittest.TestCase):
 
     def setUp(self):
 
-        self.secret = 'password@1234'
+        self.secret = 'password@12345'
         self.TARGET_HASH = sha1(self.secret).hexdigest().upper()
         #self.file_path = "/home/arabenjamin/.space/station/pwned-passwords-sha1-ordered-by-hash-v5.txt"
         self.file_path = "test_passwords_sha1.txt"
