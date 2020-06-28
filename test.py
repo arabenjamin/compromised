@@ -19,7 +19,8 @@ class Test_findHash(unittest.TestCase):
 
         self.secret = 'password@1234'
         self.TARGET_HASH = sha1(self.secret).hexdigest().upper()
-        self.file_path = "/home/arabenjamin/.space/station/pwned-passwords-sha1-ordered-by-hash-v5.txt"
+        #self.file_path = "/home/arabenjamin/.space/station/pwned-passwords-sha1-ordered-by-hash-v5.txt"
+        self.file_path = "test_passwords_sha1.txt"
         
         """ get the target file size"""
         self.fileSize = os.path.getsize(self.file_path)
