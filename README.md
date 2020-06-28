@@ -1,6 +1,6 @@
 # Compromised
 
-![Python application](https://github.com/arabenjamin/compromised/workflows/Python%20application/badge.svg)
+![Compromised](https://github.com/arabenjamin/compromised/workflows/Compromised/badge.svg?branch=master)
 
 ```
 Security is mostly a superstition. It does not exist in nature, 
