@@ -1,7 +1,12 @@
 # Compromised
 
+![Python application](https://github.com/arabenjamin/compromised/workflows/Python%20application/badge.svg)
+
 ```
-Security is mostly a superstition. It does not exist in nature, nor do the children of men as a whole experience it. Avoiding danger is no safer in the long run than outright exposure. Life is either a daring adventure, or nothing.
+Security is mostly a superstition. It does not exist in nature, 
+nor do the children of men as a whole experience it. 
+Avoiding danger is no safer in the long run than outright exposure. 
+Life is either a daring adventure, or nothing.
     -Helen Keller
 ```
 
@@ -15,6 +20,9 @@ https://haveibeenpwned.com/Passwords for details on the list of pwned passwords
 ## Prerequisites 
 
 * pwned password list
+
+
+
 
 
 
