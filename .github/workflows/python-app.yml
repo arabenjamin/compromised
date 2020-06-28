@@ -33,6 +33,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with unittest
       run: |
-        echo 'password@1234' >> touch config.cfg
+        touch config.cfg
+        echo 'password@1234' >> config.cfg
         export APP_CONFIG=config.cfg
         python -m test
