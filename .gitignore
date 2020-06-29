@@ -106,3 +106,6 @@ ENV/
 # configs
 *.config
 *.cfg
+
+# vscode
+.vscode/
