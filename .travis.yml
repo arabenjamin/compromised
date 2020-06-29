@@ -1,0 +1,14 @@
+language: python
+python:
+    - "2.7"
+
+env:
+    - APP_CONFIG=config.cfg
+
+before_install:
+    - touch config.cfg
+    - echo 'password@1234' >> config.cfg
+    
+script:
+    - python -m test
+    
