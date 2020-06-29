@@ -11,6 +11,7 @@ Life is either a daring adventure, or nothing.
 ```
 
 ![Compromised](https://github.com/arabenjamin/compromised/workflows/Compromised/badge.svg?branch=master)
+[![Build Status](https://travis-ci.org/arabenjamin/compromised.svg?branch=master)](https://travis-ci.org/arabenjamin/compromised)
 
 ## Introduction
 This repo aims to aid in being able to check existing passwords against a known list of exploited/pwned passwords. 
